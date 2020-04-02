@@ -1,0 +1,16 @@
+
+
+Enter Name:
+
+<input name="Name" [(ngModel)]="fullname" type="text">
+<br>
+Enter Password:
+
+<input name="Password" [(ngModel)]="pass" type="password">
+
+<table> 
+<ng-template ngFor let-input [ngForOf]="array">
+  <tr>{{input.name+" "+input.age}}</tr>
+</ng-template>
+</table>
+<button type="button" ng-click="submit()">SUBMIT</button> 
