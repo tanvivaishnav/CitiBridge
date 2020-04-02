@@ -1,1 +1,6 @@
+mysql> create database citi_bridge;
+mysql> use citi_bridge;
+mysql> create table login(username varchar(30) primary key, password varchar(20), date date, time timestamp);
 
+
+//I'll add dummy users asap
